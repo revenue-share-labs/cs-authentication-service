@@ -8,5 +8,5 @@ RUN npm install && \
     npm run build
 
 # Expose port and start application
-EXPOSE 3010
-CMD [ "npm", "run", "start:prod" ]
+# EXPOSE 3010
+# CMD [ "npm", "run", "start:prod" ]
